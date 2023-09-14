@@ -3,7 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
+    <!--Method 1: External CC Part 1-->
+    <link rel="stylesheet" href="main.css">
+
+    <!--Method 2: Internal CSS part 1-->
+    <style>
+        .internal-css {
+            color: #038c7f;
+            background-color: #04bfad;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -19,6 +29,21 @@
         <h1>Home Page</h1>
     </header>
     <main>
+        <section>
+            <h2>External CSS</h2>
+            <!--Method 1: External CSS part 2-->
+            <p class="external-css">In hac habitasse platea dictumst. Mauris semper vehicula risus eu tempor. Aliquam libero urna, porttitor sit amet fringilla sit amet.</p>
+        </section>
+        <section>
+            <h2>Internal CSS</h2>
+            <!--Method 2: Internal CSS Part 2-->
+            <p class="internal-css">In hac habitasse platea dictumst. Mauris semper vehicula risus eu tempor. Aliquam libero urna, porttitor sit amet fringilla sit amet.</p>
+        </section>
+        <section>
+            <h2>Inline CSS</h2>
+            <!--Method 3: Inline CSS-->
+            <p style="color: #04bfad;">In hac habitasse platea dictumst. Mauris semper vehicula risus eu tempor. Aliquam libero urna, porttitor sit amet fringilla sit amet.</p>
+        </section>
 
     </main>
     <footer>

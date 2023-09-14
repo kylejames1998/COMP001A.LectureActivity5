@@ -1,0 +1,59 @@
+/* Note: CSS are applied from top to bottom. Last rule wins. */
+/* Method 1: External CSS Part 3 */
+.external-css {
+    color: #038c7f; /* teal text color */
+    background-color: #01403a; /* Dark teal background color */
+}
+
+/* Resetting some default style using multiple selectors seperated by commas */
+body, h1, h2, p, ul, a {
+    margin: 0; /* Removing default margin */
+    padding: 0; /* Removing the default padding */
+    font-family: Arial, Helvetica, sans-serif; /* Setting the default font */
+}
+
+/* HTML Element Selector */
+body {
+    background-color: #012626; /* Dark teal body background color */
+}
+
+h1 {
+    color: #038c7f; /* Teal text color */
+    font-size: 2em; /* 2x the default font size */
+    margin-bottom: 1em; /* Adding some space below the heading */
+}
+
+h2 {
+    font-size: 1.5em; /* 1.5x the deafult font size */
+    color: #027368; /* Dark teal text color */
+}
+
+/* Styling the paragraph */
+p {
+    font-size: 16px; /* 16px is the default font size */
+    color: #7f8c8d; /* Grayish-blue */
+    margin-bottom: 12px; /* Adding some space below the paragraph */
+}
+
+/* Styling the link within the paragraph */
+p a {
+    color: #f39c12; /* Gold accent */
+    text-decoration: none; /* Removing the underline */
+}
+
+/* Styling the unordered list */
+ul {
+    list-style-type: none; /* removing the bullet points */
+    margin-left: 20px; /* Indenting the list */
+    margin-bottom: 12px; /* Adding some space below the list */
+}
+
+ul li {
+    margin-bottom: 5px; /* Adding some space below each list item */
+    color: #7f8c8d; /* grayish-blue text color */
+}
+
+/* Styling the unordered list within a div */
+div ul {
+    list-style-type: square; /* Adding the bullet points back */
+}
