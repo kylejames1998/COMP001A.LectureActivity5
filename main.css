@@ -108,7 +108,7 @@ button {
     border: none; /* Removing the border */
     background-color: #ecf0f1; /* Light gray background color */
     cursor: pointer; /* Changing the cursor to a pointer */
-    transition: all 0,3s ease; /* Adding a transition */
+    transition: all 0.3s ease; /* Adding a transition */
 }
 
 /* Conditional styling for the hover state */
